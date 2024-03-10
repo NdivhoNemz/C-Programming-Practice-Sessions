@@ -78,4 +78,24 @@ Strings can be put in a character array: char name[32]
 Strings need an extra character at the end of the string to end the string.
 The character is known as a null terminator '\0'
 
-Arrays do not use an address of operator when you scan unlike the other data types. 
+Arrays do not use an address of operator when you scan unlike the other data types.
+
+/***** USING FUNCTIONS IN C *****/
+* A function can be used to call or execute multiple statements at one time (although done step by step)
+* Arguments are passed through the function inside the paranthesis
+* Another benefit of ussing functions, Instead of chnaging a code in a various locations, changing the function will change it in all different locations.
+* The action of inputing arguements is called parsing.
+* Arguements allow us to customise our functions.
+
+/***** VIM/VI Basics *****/
+:syntax on = Sets syntax
+:set number = Adds numbers
+
+The above needs to set each time
+
+TO MAKE PERMENENT:
+- cd to home directory
+- vi to .vimrc tp create or enter
+- add setup
+
+
