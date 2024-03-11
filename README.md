@@ -217,4 +217,55 @@ NAMING VARIABLES
 * modulus operator - remainder and only works with integers
 
 /***** UNARY PLUS AND MINUS OPERATORS *****/
+* Operators do not always change the value of the variable.
+* Operators change the expression and not the cvariable.
+
+/***** INCREMENT AND DECREMENT OPERATORS *****/
+* Increment and decrement operators changes the value of variable
+    : Increment - to increase the value of variable by 1.
+    : Decrement - to decrease the value of a variable by 1.
+* If you need to add or remove 1 to a variable, use increment: variable++; or variable--;
+* If more than 1 then use expresion: variable = variable + 5; or variable = vairable - 5;
+* Positin of the increment is important:
+    * variable++; = increment will happen after the value has been outputed.
+    * ++variable; = increment will happen before the value has been outputed.
+
+/***** ASSIGNMENT OPERATORS *****/
+* This allows for increment and decrement at a a bigger scale (variable + 30; or variable - 30;)
+* This only uses the variable once to erase any possibility of errors:
+    : += (variable = variable + 100; same as: variable += 100;)
+    : -= (variable = variable - 100; same as:variable -= 100;)
+    : *= (variabele = variable * 2; same as: variable *= 2;)
+    : /= (variable = variable /2; same as: variable /= 2;)
+    : %= (variable = variable %5; same as: variable %= 5;)
+
+/***** OPERATOR PRECEDENCE *****/
+* Other operators have precedence over others (BODMAS)
+    https://en.cppreference.com/w/c/language/operator_precedence
+
+/***** STRONGLY TYPED vs LOOSELY TYPED LANGUAGES *****/
+* C is a strongly(strict) typed language
+    - evrery piece of data has a specific type
+    - when you declare a variable you need to say what type it is, variable stays that type.
+    - NB!: concatenation means ("5" + "5" = "55")
+    - in C (1/3 = 0 because both 1 and 3 are int, unless data type is specified to be float)
+
+* JavasScript is a loosely typed language
+    - Uses duck typing
+
+* Beacause in c data types need to be specified, we use type casting to change data type.
+
+/***** TYPE CASTING *****/
+* e.g You can type cast a double into an integer
+* C language is very specific when it comes to data types
+* TWO TYPES OF TYPE CASTING
+    - IMPLICIT: can happen automatically (lossless) (1 intepreted as 1.00)
+    - EXPLICIT: tell the computer (lossy) ((double) 3.5 = 3)
+
+/***** IMPLICIT TYPE PROMOTION *****/
+* implicit type conversion (promotion): data types that can be converted to other data types without loss of infomation.
+* printf talkes doubles and not floats, so floats are promoted to double in storage.
+* double and floats take %f.
+* float fits into a double, float is a smaller data type than double.
+
 
