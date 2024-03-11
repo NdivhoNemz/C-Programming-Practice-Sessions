@@ -2,6 +2,7 @@ THEORY WRITTEN:
 
 Programmng language was invented to help human communicate with the computer instead of using binary as it is error prone.
 Source code is typed and compiled in order to create a program and is interpreted by the computer.
+________________________________________________________________________
 
 /******* HOW A C PROGRAM WORKS ******/
 Algorithm - step bty step instructions (SPECIFIC INTRUCTIONS)
@@ -27,6 +28,7 @@ int main()
 #include <stdio.h>
     stdio.h = library housing the printf function.
 \n = new line
+__________________________________________________________
 
 /********* UNIX AND LINUX *******/
 
@@ -49,6 +51,7 @@ echo = prints out what you typed (echo "Hello")
 cat = view file contents (cat output.c)
 less = view a bit of file contents (less output.c)
 control C = exit any program
+_______________________________________________________________
 
 /***** BASICS OF C *****/
 
@@ -79,6 +82,7 @@ Strings need an extra character at the end of the string to end the string.
 The character is known as a null terminator '\0'
 
 Arrays do not use an address of operator when you scan unlike the other data types.
+______________________________________________________________________________
 
 /***** USING FUNCTIONS IN C *****/
 * A function can be used to call or execute multiple statements at one time (although done step by step)
@@ -86,6 +90,7 @@ Arrays do not use an address of operator when you scan unlike the other data typ
 * Another benefit of ussing functions, Instead of chnaging a code in a various locations, changing the function will change it in all different locations.
 * The action of inputing arguements is called parsing.
 * Arguements allow us to customise our functions.
+__________________________________________________________________
 
 /***** VIM/VI Basics *****/
 :syntax on = Sets syntax
@@ -97,6 +102,7 @@ TO MAKE PERMENENT:
 - cd to home directory
 - vi to .vimrc tp create or enter
 - add setup
+_________________________________________________________________
 
 /***** DATA TYPES *****/
 - Data type tells the computer how to interpret data
@@ -135,6 +141,7 @@ SCIENTIFIC NOTATION
 -floating points are stored in scientific notation
     : 2 4000 = 2.4 * 10^4
     : .000045 = 4.5 * 10^-5
+________________________________________________________
 
 /***** FORMAT CHARACTERS *****/
 
@@ -146,6 +153,7 @@ CONVERSION CHARACTERS
 %lf - can be used for both Decimal and scientific notation.
 
 For scanf a double, use %lf but to printf a double use %f
+____________________________________________________________
 
 /***** CHAR DATA TYPE *****/
 - char is short for character
@@ -177,9 +185,11 @@ ASCII has a group of 8bits:
 - same bytes can be interpeted as a character or an integer.
 - every character has a numeric value
 /* https://www.youtube.com/watch?v=Bz4MxDeEM6k&t=6761s */
+________________________________________________________
 
 /***** BOOLEAN DATA *****/
 - anything that's either true or false. eg true = 0 and false = 1
+_____________________________________________________
 
 /***** VARIABLES *****/
 * Variables are used to store some kind of value
@@ -193,6 +203,7 @@ NAMING VARIABLES
 * Allowed all letters, numbers and under scrolls.
 * Variable names are case sensetive.
 * short variable but descriptive
+_____________________________________________________
 
 /***** INTRO TO OPERATORS *****/
 * Used in Arithmetic Expressions
@@ -209,6 +220,7 @@ NAMING VARIABLES
     - Logical Operators
     - Assignment Operators
     - Relational Operators
+______________________________________________________
 
 /***** ARITHMETIC OPERATORS *****/
 
@@ -219,6 +231,7 @@ NAMING VARIABLES
 /***** UNARY PLUS AND MINUS OPERATORS *****/
 * Operators do not always change the value of the variable.
 * Operators change the expression and not the cvariable.
+_____________________________________________________________
 
 /***** INCREMENT AND DECREMENT OPERATORS *****/
 * Increment and decrement operators changes the value of variable
@@ -229,6 +242,7 @@ NAMING VARIABLES
 * Positin of the increment is important:
     * variable++; = increment will happen after the value has been outputed.
     * ++variable; = increment will happen before the value has been outputed.
+______________________________________________________________
 
 /***** ASSIGNMENT OPERATORS *****/
 * This allows for increment and decrement at a a bigger scale (variable + 30; or variable - 30;)
@@ -238,10 +252,12 @@ NAMING VARIABLES
     : *= (variabele = variable * 2; same as: variable *= 2;)
     : /= (variable = variable /2; same as: variable /= 2;)
     : %= (variable = variable %5; same as: variable %= 5;)
+_____________________________________________________________
 
 /***** OPERATOR PRECEDENCE *****/
 * Other operators have precedence over others (BODMAS)
     https://en.cppreference.com/w/c/language/operator_precedence
+___________________________________________________________________
 
 /***** STRONGLY TYPED vs LOOSELY TYPED LANGUAGES *****/
 * C is a strongly(strict) typed language
@@ -254,6 +270,7 @@ NAMING VARIABLES
     - Uses duck typing
 
 * Beacause in c data types need to be specified, we use type casting to change data type.
+_______________________________________
 
 /***** TYPE CASTING *****/
 * e.g You can type cast a double into an integer
@@ -261,11 +278,43 @@ NAMING VARIABLES
 * TWO TYPES OF TYPE CASTING
     - IMPLICIT: can happen automatically (lossless) (1 intepreted as 1.00)
     - EXPLICIT: tell the computer (lossy) ((double) 3.5 = 3)
+___________________________________
 
 /***** IMPLICIT TYPE PROMOTION *****/
-* implicit type conversion (promotion): data types that can be converted to other data types without loss of infomation.
+* implicit type conversion (promotion): data types that can be converted to other data types without loss of infomatio
 * printf talkes doubles and not floats, so floats are promoted to double in storage.
 * double and floats take %f.
 * float fits into a double, float is a smaller data type than double.
 
+___________________________________
+
+/***** INTRO TO LOGIC *****/
+
+* Branching - when a programme splits based on an expression:
+* Boolean Logic - True or False
+    - If true, go down one branch
+    _ If false, go down the other branch
+
+* Compound Expression - Combine two expressions to ultimately come down to True or False
+    - age > 12;
+    - sex == female
+    - age > 12 && sex == female (&& known as logical operator)
+* Truth Table can be used to decipher all possible outcomes.
+
+* CONTROL FLOW STATEMENT: Computer science term for branching:
+  Loops and conditional
+    - if statements
+    - for statements
+    - while statements
+* logic gates determine direction of branch
+______________________________________
+
+/***** IF STATETEMENTS *****/
+
+if(expression)
+    {
+        //CODE
+    }
+- If TRUE (Conditional) then code is executed.
+- If false then the code is skipped and moves to be evaluated in the next code.
 
