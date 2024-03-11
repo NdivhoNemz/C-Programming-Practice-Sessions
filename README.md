@@ -317,4 +317,17 @@ if(expression)
     }
 - If TRUE (Conditional) then code is executed.
 - If false then the code is skipped and moves to be evaluated in the next code.
+___________________________________________________
 
+/***** RELATIONAL(COMPARISON) OPERATORS *****/
+
+* > : greater than to
+* < : less than to
+* >= : greater than or equal to
+* >= : less than or equal to
+* == : equal to
+* ! : negation operator, flips the true or false value of anything
+* != : Not equal to
+
+* Due to operator precedenc:
+    pizzaRating > 3 + 3; is evaluated as pizzaRating > 6;
