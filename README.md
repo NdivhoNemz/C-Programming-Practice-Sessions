@@ -328,6 +328,70 @@ ___________________________________________________
 * == : equal to
 * ! : negation operator, flips the true or false value of anything
 * != : Not equal to
+* || : or operator (Either of the options grant access)
 
 * Due to operator precedenc:
     pizzaRating > 3 + 3; is evaluated as pizzaRating > 6;
+
+____________________________________________________________
+
+/***** IF-ELSE STATEMENTS *****/
+
+* Logical operators are used to build complex conditionals.
+* Easiest way to understand this conditionals is to write them within an IF statement.
+* if(email is verified || phone verified) || = or operator.
+* takes 1 of two directions.
+
+NB: THE 3 LOGICAL OPERATORS YOU NEED TO KNOW ARE:
+        * || : OR (Both can be true)
+        * && : AND
+        * ! : NOT
+ * Short curcitting happens when a second operrand does not need to be assessed with binary conditionals.
+
+* XOR - Exclusive or: they both can't be true nor both false.
+      - In C we don't use XOR.
+      - To mimic XOR we use the != (Not equal to) operator. (A != B)
+
+______________________________________________________________________
+
+/***** COMPLEX CODITIONALS *****/
+
+* Try simplify the conditionals as much as possible.
+* Make use of NESTED If statements (If statements within if statements)
+
+_______________________________________________________________________
+
+/***** SHORT CIRCUIT EVALUATION *****/
+
+* When a large expression is evaluated early i order to shorten code.
+* BENEFITS: Saves computing time(speeds up program)
+* Rules that allows us to know if expressions are true or false early.
+
+    OR logic operator:
+        * True || x = TRUE (Short Circuit).
+        * False || x = Needs further evaluation. 
+    
+    && logic operator:
+        * True && x = Needs further evaluation.
+        * False && x = FALSE (Short Circuit).
+________________________________________________________________________
+
+/***** LOGICAL OPERATOR PRECEDENCE *****/
+
+In Logical Operator Precedence:
+    * ! (NOT) is first.
+    * && (AND) is second.
+    * || (OR) is third.
+
+In order to avoid complexity, make use of parenthesis.
+
+__________________________________________________________________
+
+/***** ELSE-IF STATEMENTS *****/
+
+* if-else statement: branches into 2 directions. (Starts with 'if' and ends with 'else')
+* else-if statement: branches into 3 or more directions. (Starts with 'if', joins with 'else if' and ends with 'else')
+* NB!: YOU CAN HAVE AN 'else if' statement without ending with an else.
+
+
+
