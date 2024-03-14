@@ -393,5 +393,25 @@ __________________________________________________________________
 * else-if statement: branches into 3 or more directions. (Starts with 'if', joins with 'else if' and ends with 'else')
 * NB!: YOU CAN HAVE AN 'else if' statement without ending with an else.
 
+_________________________________________________________________________
 
+/***** MULTIPLE-IF STATEMENTS vs ELSE-IF STATEMENTS *****/
+
+* DIFFERENCE between 2 IF statements versus having an IF-ELSE statement
+    * With 2 IF STATEMENTS, both will be evaluated and a chance of both being executed if true to the condition.
+    * With an ELSE-IF STATEMENT, only 1 or the other will be executed.
+NB: If you want one or the other than ELSE-IF Statements, if you want a possibility for both included then multiple IF STATEMENTS.
+
+__________________________________________________________________________
+
+/***** SINGLE LINE IF *****/
+
+* Include the stdbool.h
+
+PRO: Easy to read, shortens line count
+CONS: Because no curly braces, only evaluates the line after.
+
+* NOT RECOMMENDED, leaves opportunity for errors especially when wanting to add more.
+
+_____________________________________________________________________________
 
