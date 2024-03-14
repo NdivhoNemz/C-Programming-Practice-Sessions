@@ -437,4 +437,20 @@ _____________________________________________________________________________
 
 ________________________________________________________________________________
 
+/***** WHEN TO USE SWITCH OVER IF *****/
+
+* Switch statement is good for integral variables. Integer type, Cannot use for a double.
+* Switch NOT suitable for ranges.
+* Suitable for limited number of options.
+* Switch can use char data types as well due to ASCII conversion. As each char has a int value. 'A' = 65.
+
+* NOTHING THAT A SWITCH STATEMENT OFFERS THAT IS NOT DONE BY IF OR ELSE OF STATEMENT.
+
+* Switch statement are however clearer in certain situations like menus.
+* They are very common so it's important to know how it works.
+* SWITCH STATEMENT has a FINITE number of possibilities and usually best represent by switch statement.
+_______________________________________________________________________________________
+
+/***** CHARACTERS IN SWITCH STATEMENTS *****/
+
 
