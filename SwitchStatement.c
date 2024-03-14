@@ -8,6 +8,9 @@ int main()
 
     switch(slices)
     {
+        case 0:
+            printf("No Pizza at all??? You on a diet?\n");
+            break;
         case 1:
             printf("Well done for just eating 1 slice!!!\n");
             break;
@@ -24,6 +27,10 @@ int main()
             printf("GET TO THE GYM ASAP!!!!\n");
             break;
     }
+
+    int caloriesPerSlice = 250;
+    int totalCalories = caloriesPerSlice * slices;
+    printf("You had %d calories.\n", totalCalories);
 
     return (0);
 }
