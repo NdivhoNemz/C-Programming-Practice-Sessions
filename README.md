@@ -415,3 +415,26 @@ CONS: Because no curly braces, only evaluates the line after.
 
 _____________________________________________________________________________
 
+/***** INTRO TO SWITCH STATEMENTS *****/
+
+* Very similar to IF STATEMENTS
+* SWITCH statement is different in structure from IF statement but serves the same purpose.
+    - Purpose is to branch based on cerain values.
+    - When to use either is dependent on what you trying to archieve.
+* SWITCH STATEMENTS are good for comparing a simple number value
+* IF STATEMENTS allow for more coplex comparison in their () condition segment.
+
+*NB!: SWITCH STATEMENTS CANNOT HAVE COMPARISON OR LOGICAL OPERATORS
+
+* SWITCH is easier to read when branching out into more clear variables
+
+* IMPORTANT SYNTAX:
+    - [switch()] to start the switch statement,
+    - [case 0: case 1: etc] works as different branches just like "elseif".
+    - [break;] used to end a case in order to evaluate the next.
+    - [default;] works like the else, if none of the cases conditions are met.
+    - the CODE goes between case and break or default and break.
+
+________________________________________________________________________________
+
+
