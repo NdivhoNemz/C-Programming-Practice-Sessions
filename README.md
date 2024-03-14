@@ -476,7 +476,9 @@ _________________________________________________________
 NB: READ MORE ON getchar() function and research on more input function other than scanf!!!!!
 ______________________________________________________________________________________________
 
-/***** NESTED IF STATEMENTS WITH USER INPUT *****/
+/***** TERNARY (CONDITIONAL) OPERATOR *****/
 
+* Another way to do if statements
+* Very suitable for small size if statements.  
 
 
