@@ -453,4 +453,10 @@ ________________________________________________________________________________
 
 /***** CHARACTERS IN SWITCH STATEMENTS *****/
 
+* You can use any data type that is directly convertable to an integer: 'A' = 65
+* DATA TYPES THAT ARE DIRECTLY CONVERTABLE:
+    * characters
+    * integers
+    * enumerations (data type that allows you to choose from various options)
 
+* You can have multiple cases for one section of code!
