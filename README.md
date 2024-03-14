@@ -460,3 +460,23 @@ ________________________________________________________________________________
     * enumerations (data type that allows you to choose from various options)
 
 * You can have multiple cases for one section of code!
+_________________________________________________________
+
+/***** INPUT STREAM (BUFFER) EXPLAINED *****/
+
+* When you type into the console, it is stored in a temporary location.
+* Whatever is stored in the input stream (Buffer) is assigned to the declared variable.
+* Input stream can be thought of as a sequence of characters.
+* scanf is the simpliest input function but not the best.
+
+* IF YOU ARE USING scanf multiple times in your program, you need to flush(empty) the input true.
+* This is done by using the [getchar()] function.
+* Use getchar() between scanfs if you think they might be an issue from switch scanf %d to scanf %c.
+
+NB: READ MORE ON getchar() function and research on more input function other than scanf!!!!!
+______________________________________________________________________________________________
+
+/***** NESTED IF STATEMENTS WITH USER INPUT *****/
+
+
+
