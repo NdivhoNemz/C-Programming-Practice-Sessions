@@ -481,4 +481,38 @@ ________________________________________________________________________________
 * Another way to do if statements
 * Very suitable for small size if statements.  
 
+_______________________________________________________
+
+/***** INTRO TO LOOPS *****/
+
+* Loops allow us to do some section of code as many times as we would like.
+* Dangers of loops is that you can create an infinite loop.
+* THREE (ICU) things you need to consider when making a loop:
+    - Initialisation: i = 0; Where we starting. START
+    - Comparison: i <= 10; How we know we are continuing. ENDING
+    - Update: i++; After each loop, INCREMENT BY 1. EACH LOOP.
+
+* When you create a loop, you need to figure out when to start and end a loop
+
+* THREE TYPES OF LOOPS:
+    1. FOR 
+    2. WHILE
+    3. DO WHILE
+
+FOR LOOPS: 
+------------
+* Allows us to see the (ICU) in practice.
+* Variable int i is thought of as an iterator.
+* Everytime you go through the loop is known as an iteration. You can keep track of which iteration we are on using i.
+        ** for(int i = 0; i <= 9; i++) "This for loop will run 10 times, from 0 till 9
+        {
+            //code
+        }
+    * int i = 0; is the initialisation
+        - This only happens once, to show where the loop must start, sets the value.
+
+    * i <= 9; the comparison
+        - for each time this is true, the code is executed.
+
+    * i++; this happens after the comparison, and increment i each time for as long as i <= 9 is true.
 
