@@ -516,3 +516,9 @@ FOR LOOPS:
 
     * i++; this happens after the comparison, and increment i each time for as long as i <= 9 is true.
 
+NESTED FOR LOOP:
+--------------------
+* Nested for loop is a for loop inside another for loop
+* A for loop for each iteration of each loop.
+* Useful for multi dimensional arrays
+
