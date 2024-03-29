@@ -517,8 +517,28 @@ FOR LOOPS:
     * i++; this happens after the comparison, and increment i each time for as long as i <= 9 is true.
 
 NESTED FOR LOOP:
---------------------
+----------------
 * Nested for loop is a for loop inside another for loop
 * A for loop for each iteration of each loop.
 * Useful for multi dimensional arrays
+
+COUNTING PRIME NUMBERS:
+-----------------------
+* A prime number can only be divisable by 1 and itself with no remainder or decimal.
+* Be cautious of edge cases (Highest and lowest number being worked with and a bit over).
+
+    PRIME FACTORS:
+    --------------
+    * Check the number up to the square root instead of till the the number 2 3 4 ... sqaure root.
+    * Best to use Prime factor for a code through getting square root of tested number.
+    * Once square root is obtain, test each number from square root down to 2.
+    * If tested number is divisable without a remainder than it's NOT A PRIME.
+
+____________________________________________________________________________________________________
+
+/***** WHILE LOOPS *****/
+
+* While loop can be used to achieve everything the 'FOR LOOP' can achieve.
+* Not a lot of difference other than structure.
+* While loop offers more flexebility
 
