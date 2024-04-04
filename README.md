@@ -546,7 +546,15 @@ DO WHILE LOOPS:
 * Do while loop is great for scenarios where you need something to execute atleast once and potentially more times.
 * eg: Input validation
 
+BREAK:
+-----
+* Can be used to exit out of loops.
+* Used for both For Loops and While Loops
+* Efficent for while loop as they risk running infinitely if conditions are'nt met.
 
-
+CONTINUE:
+---------
+* Continue works similar to break:
+* Continue will not exit out of a loop but exit from the iteration(i++) and continue the loop after.
 
 _________________________________________________________________________________________
