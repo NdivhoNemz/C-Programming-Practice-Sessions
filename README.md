@@ -534,11 +534,19 @@ COUNTING PRIME NUMBERS:
     * Once square root is obtain, test each number from square root down to 2.
     * If tested number is divisable without a remainder than it's NOT A PRIME.
 
-____________________________________________________________________________________________________
-
-/***** WHILE LOOPS *****/
-
+WHILE LOOPS:
+------------
 * While loop can be used to achieve everything the 'FOR LOOP' can achieve.
 * Not a lot of difference other than structure.
 * While loop offers more flexebility
 
+DO WHILE LOOPS:
+---------------
+* Do something atleast once if true
+* Do while loop is great for scenarios where you need something to execute atleast once and potentially more times.
+* eg: Input validation
+
+
+
+
+_________________________________________________________________________________________
