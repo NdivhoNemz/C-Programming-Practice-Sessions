@@ -588,9 +588,15 @@ WORKING WITH ARRAYS:
 * Only use the [] when declaring the array, otherwise use 'myGrades' without.
 * Use [] when referencing a specific element 'myGrades[2]'
 
-PRINTING ARRAY WITH LOOP
+PRINTING ARRAY WITH LOOP:
 -------------------------
 * You need a size variable to keep track of the array.
 * make use of the size variable
 
-
+MULTIDIMENSIONAL ARRAYS:
+------------------------
+* Single dimenstional arrays would be an array of integers or characters.
+* Multidimensional arrays are essentially arrays of arrays.
+* Needs 2 [], int studentGrades[5][4];
+            - The first [] repersents rows = horizontal lines.
+            - THe second [] reperesents columns = vertial lines.
