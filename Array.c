@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// Index = 0 based number
+// Element = each individual value that goes into the array
+// size = total counts of element and is not 0 based.
+
 int main()
 {
     int myGrades[] = {10, 12, 14, 15, 16, 17, 54, 34, 23};

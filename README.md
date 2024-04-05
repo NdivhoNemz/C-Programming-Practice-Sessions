@@ -580,10 +580,17 @@ WORKING WITH ARRAYS:
 * Same data type
 * two ways to assign values: Do each individually by stating size or all at once with no size
         - Size determined by compiler
-
+ 
         // index = 0 based number
         // element = the value in the 1st element
         // size
 
 * Only use the [] when declaring the array, otherwise use 'myGrades' without.
 * Use [] when referencing a specific element 'myGrades[2]'
+
+PRINTING ARRAY WITH LOOP
+-------------------------
+* You need a size variable to keep track of the array.
+* make use of the size variable
+
+
