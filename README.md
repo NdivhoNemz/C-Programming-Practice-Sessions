@@ -557,4 +557,33 @@ CONTINUE:
 * Continue works similar to break:
 * Continue will not exit out of a loop but exit from the iteration(i++) and continue the loop after.
 
-_________________________________________________________________________________________
+________________________________________________________________________________________
+
+/***** INTRO TO ARRAYS *****/
+
+* An array is a collection of data stored within one variable.
+* Can store multiple things in a single array.
+* HAS TO BE OF THE SAME DATA TYPE!!!! 
+* Collection of integers, characters etc... in one variable.
+    - 'int myGrades[5];' would be an integer array storing 5 grades of students: 15 24 60 32 15
+    - withing the [] you need to declare a size. [elements]
+    - an array is statically sized.
+    - statically sized means the size cannot be changed, size is known at compile time.
+        ** Size can only be changed by liked lists or in the dynamic memory.
+* Arrays are 0 based, means the first element is referred to by '0'. 
+    - 'int myGrades[0] = 15;' This will assign 15 to the 1st element.
+    - 'int myGrades[] = {15, 24, 60, 32, 15};' will assign all 5 elements to the myGrades variable of array.
+** NB!!!: BE CAREFUL NOT REFERENCE OVER THE STATIC SIZE DECLARED.
+
+WORKING WITH ARRAYS:
+--------------------
+* Same data type
+* two ways to assign values: Do each individually by stating size or all at once with no size
+        - Size determined by compiler
+
+        // index = 0 based number
+        // element = the value in the 1st element
+        // size
+
+* Only use the [] when declaring the array, otherwise use 'myGrades' without.
+* Use [] when referencing a specific element 'myGrades[2]'
