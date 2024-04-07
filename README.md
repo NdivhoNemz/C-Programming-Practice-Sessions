@@ -600,3 +600,28 @@ MULTIDIMENSIONAL ARRAYS:
 * Needs 2 [], int studentGrades[5][4];
             - The first [] repersents rows = horizontal lines.
             - THe second [] reperesents columns = vertial lines.
+
+_____________________________________________________________________________________________
+
+/***** INTRO TO STRINGS AND NULL CHARACTER *****/
+
+* Strings are essentially a character array.
+* To asssign a string into a variable you need a character array.
+* The string "Hello" can be assigned into a variable by 'char word[10] = "Hello"'.
+* Strings end with a Null character.
+* Null character = '\0'
+* Null character is used to represent the end of the string!!!
+* MAKE SURE THE SIZING OF THE ARRAY IS ALWAYS CORRECT!!!
+* When getting user input, always account for the possible size the user might input.
+            - scanf("%s"); = consider the format specifier.
+            - Try put a stop by adding size to format specifier.
+            - e.g scanf("%9s"); only the first 9characters would be used as the 10th would be reserve for the null character.
+
+* NB!!! Remember the NULL character and never overwrite the NULL character.
+
+TIPS:
+----
+* Avoiding giving the size [] if hard coding as this will be done during compile time.
+* Only add size [] if getting sting from input user (scanf).
+* No need to use &addressOfOperaters for strings.
+
