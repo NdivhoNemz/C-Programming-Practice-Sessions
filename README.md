@@ -623,5 +623,55 @@ TIPS:
 ----
 * Avoiding giving the size [] if hard coding as this will be done during compile time.
 * Only add size [] if getting sting from input user (scanf).
-* No need to use &addressOfOperaters for strings.
+* No need to use &addressOfOperators for strings.
 
+______________________________________________________________________________________________
+
+/***** FUNCTION DESIGN *****/
+
+* A function is a tool in your tool box that does something for you.
+* You leverage your function to do the work for you to get pre programmed usage.
+* eg: printf scanf
+* printf() = arguments go into the (). You worry about the argument and not the function.
+* You can create your own functions and not just the built in functions like printf & scanf.
+* Created functions will be in your library. Use #include "library.h" to use in your code.
+* DRY = Dont Repeat Yourself.
+
+FUNCTION DESIGN RULLES:
+-----------------------
+* DO NOT OUTPUT TO THE CONSOLE INSDIE OF A FUNCTION
+        - Unless function is designed to output.
+* DESIGN YOUR FUNCTIONS TO BE AS GENERIC AS POSSIBLE TO INCREASE USAGE IN VARUIOUS SCENARIOS.
+* MAKE FUNCTION HAVE ONE USE, ONE FUNCTION, SHOULD DO ON THING. eg SORT, instead of sort and print.
+
+FUNCTION ARGUMENTS, PARAMETERS, RETURN STATEMENT:
+------------------------------------------------
+* Every function created neeed a name eg: factorial.
+* In order for the function to work, it needs an input.
+* When defining a function, state what data you need.
+* The stating of data need is known as PARAMETERS eg: (int n)
+    - This is done in paranthesis after the function name.
+    - Its named and used as a variable inside the function.
+* Defining the type of output expected from the function. Known as RETURN.
+* Return type of the factorial will be an integer. eg: int
+
+        'int factorial(int n)'
+
+* Creating a function that takes an integer, executes and gives the "result(int)" back.
+* Return type = int
+* Return statement = given an actual value (return n;) the actual data outputed by the function.
+
+* Invokong the function: 'int x = 5;' 'factorial(x);'
+* intF = factorial(5); intF  would contain the factorial of 5 Result.
+
+* ARGUEMENT = the passing of data like the value 5 into the factorial function.
+
+* NB: You can only return one thing unless. To return multiple, you put in a struct. 
+
+DEFINITIONS:
+------------
+* PARAMETER = The parameter is the variable inside of the function. Local variable to a funtion
+* ARGUEMENT = The data passed to the parameter. Value passed into the function.
+
+* Parameters cannot be changed in the function, can only be copied into a return variable.
+* Only way to change a parameter is through a pointer.
