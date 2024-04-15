@@ -678,9 +678,14 @@ DEFINITIONS:
 
 CREATING VOID FUNCTIONS:
 -----------------------
-
 * Void functions arent used to CALCULATE but to DO SOMETHNG.
 * eg. Logging or console outputs.
 * Void funtion should not return a value.
-* 
+
+REFACTORING:
+-----------
+* Is a way to change your code without changing the functionality of your program.
+* Main reasons: Optomised method.
+                Make it better through readability.
+* Before refactoring, run tests with each change.
 
