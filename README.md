@@ -346,7 +346,7 @@ NB: THE 3 LOGICAL OPERATORS YOU NEED TO KNOW ARE:
         * || : OR (Both can be true)
         * && : AND
         * ! : NOT
- * Short curcitting happens when a second operrand does not need to be assessed with binary conditionals.
+* Short curcitting happens when a second operrand does not need to be assessed with binary conditionals.
 
 * XOR - Exclusive or: they both can't be true nor both false.
       - In C we don't use XOR.
@@ -675,3 +675,12 @@ DEFINITIONS:
 
 * Parameters cannot be changed in the function, can only be copied into a return variable.
 * Only way to change a parameter is through a pointer.
+
+CREATING VOID FUNCTIONS:
+-----------------------
+
+* Void functions arent used to CALCULATE but to DO SOMETHNG.
+* eg. Logging or console outputs.
+* Void funtion should not return a value.
+* 
+
