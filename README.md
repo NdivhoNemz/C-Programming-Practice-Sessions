@@ -714,3 +714,12 @@ PASSING BY VALUE VS POINTERS:
 * When using pointe, no return value is required and can be void.
 * because the arguement points to the address of operator of the results in the parameter.
 * The return will be the same.
+* When qorking with *p than no need to have a return value or type int. IT IS void. 
+* When you pass arrays, it DECAYS from an array to a pointer.
+
+_________________________________________________________________________________________________-
+
+/***** WORKING WITH STRUCTS *****/
+
+* Structs allow us to incapsulate numerous pieces of data or values into 1 variable.
+
