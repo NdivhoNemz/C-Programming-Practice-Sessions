@@ -689,3 +689,28 @@ REFACTORING:
                 Make it better through readability.
 * Before refactoring, run tests with each change.
 
+_________________________________________________________________________________________
+
+/***** INTRO TO POINTERS AND INDIRECTION OPERATOR *****/
+
+* Value of variable is held in memory in the pc.
+* Pointer points to the location of the held memeory.
+* if value of variable int x = 5; is held in memory,
+     pointer: int *p = &x
+             p = 5.
+* Pointer points to the held value indirectly through the address of operator.
+* value of x can be chnaged through the pointer as well.
+            e.g *p = 20;
+
+INDIRECTION OPERATOR:
+--------------------
+* Declaration: int *p
+* Assign: p = &x
+* Reference/derefrence: *p
+
+PASSING BY VALUE VS POINTERS:
+---------------------------
+* In c everything is passed in value. Value of an arguement is copied into a parameter.
+* When using pointe, no return value is required and can be void.
+* because the arguement points to the address of operator of the results in the parameter.
+* The return will be the same.
